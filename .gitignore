@@ -1,0 +1,22 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# MediaPipe model file (auto-downloads on startup, no need to track on Git)
+hand_landmarker.task
+
+# IDE configurations
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
